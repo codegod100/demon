@@ -13,7 +13,7 @@
     A borrowing of Latin daemōn (“tutelary deity”), from Ancient Greek δαίμων
     (daímōn, “dispenser, tutelary deity”).
   </div>
-  <div class="text-right mt-5">
+  <div class="text-right mt-5 mb-5">
     <a href="https://en.wiktionary.org/wiki/daemon"
       >https://en.wiktionary.org/wiki/daemon</a
     >
