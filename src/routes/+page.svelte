@@ -2,7 +2,7 @@
   import { Avatar } from "@skeletonlabs/skeleton";
 </script>
 
-<div class="pt-5 container mx-auto">
+<div class="pt-5 container mx-auto p-2">
   <div class="grid grid-flow-col auto-cols-max mb-5">
     <Avatar
       src="https://cdn.bsky.app/img/avatar/plain/did:plc:ngokl2gnmpbvuvrfckja3g7p/bafkreibpne7cdc42h3ueamxxvv2bk57etg7my655awtlbbde453cbj72me@jpeg"
