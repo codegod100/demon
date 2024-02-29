@@ -1,5 +1,7 @@
 <script>
+  export let data;
   import { Avatar } from "@skeletonlabs/skeleton";
+  console.log(data.skeets);
 </script>
 
 <div class="pt-5 container mx-auto p-2">
@@ -31,5 +33,17 @@
     >
   </div>
   <div class="h2 mt-5 mb-1">Why?</div>
-  <div>I bought a cool domain [demon.ooo] to use as bluesky account and decided to make a personal site using it.</div>
+  <div>
+    I bought a cool domain [demon.ooo] to use as bluesky account and decided to
+    make a personal site using it.
+  </div>
+  <div class="h2 mt-5 mb-5">Recent posts</div>
+  <div>
+    {#each data.skeets as skeet}
+      <div>{skeet.text}</div>
+      <div class="mb-5">
+        <a class="anchor" href={skeet.uri}>{skeet.time}</a>
+      </div>
+    {/each}
+  </div>
 </div>
